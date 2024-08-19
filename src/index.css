@@ -1,0 +1,51 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+button {
+  background-color: rgb(246, 246, 174);
+  border-radius: 16px;
+  border-width: 0px;
+  height: 35px;
+  transition: 500ms;
+  color: black;
+}
+button:hover {
+  padding: 2.5px;
+  background-color: rgb(3, 254, 3);
+}
+p {
+  border-radius: 16px;
+  border: green solid;
+  min-height: 35px;
+  min-width: 600px;
+}
+#Solana-div {
+  border-radius: 16px;
+  border: aqua solid;
+  min-height: 35px;
+  min-width: 600px;
+}
+#Ethereum-div {
+  border-radius: 16px;
+  border: aqua solid;
+  min-height: 35px;
+  min-width: 600px;
+}
